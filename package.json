@@ -1,0 +1,16 @@
+{
+  "name": "mariadbapi",
+  "version": "1.0.0",
+  "description": "api with mariadb",
+  "main": "app.js",
+  "start": "node app.js",
+  "scripts": {"start":"node app.js"},
+  "dev": " nodemon app.js",
+  "author": "kehinde",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mariadb": "^3.0.0"
+  }
+}
