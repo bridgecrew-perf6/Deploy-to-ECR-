@@ -15,3 +15,14 @@ I dockerized the application, then push the image created to the docker hub.
 
 docker hub repository https://hub.docker.com/r/kehindeafusat/demo222/tags
 
+Step 3: After dockering the application, I made use of Github Actions to deploy the app to ECS.
+
+This step required that I make use oF AWS CLI, v2, created an access for the compute resources i needed on Aws, kept the access key id and secret access key in the GitHub secret, then I pushed the docker image into the ECR(elastic container registry).
+
+Step 4: Created a cluster which crequired a service, definitation task, and EC2 instance 
+container
+task definition
+servicename
+clustername
+
+
