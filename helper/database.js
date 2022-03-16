@@ -32,6 +32,7 @@ pool.getConnection((err, connection) => {
 // // DB initiation connecting for a mySQL DB instance
 // const connection = mariadb.createConnection({
 //   host: 'localhost',
+
 //   user: 'root',
 //   password: 'password',
 //   database: 'userdb',
